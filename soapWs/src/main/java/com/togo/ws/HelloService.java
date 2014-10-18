@@ -1,4 +1,4 @@
-package com.sample;
+package com.togo.ws;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
