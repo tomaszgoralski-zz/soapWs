@@ -6,7 +6,7 @@ import javax.jws.WebService;
 
 @WebService
 public class HelloService {
-	@WebMethod
+	@WebMethod(operationName="sayfromName")
 	public String say(@WebParam(name = "text") String text) {
 		return "Hello" + text;
 	}
